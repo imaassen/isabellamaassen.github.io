@@ -72,3 +72,7 @@ Custom domain: `isabellamaassen.com` (already recorded in the local `CNAME` file
 Source for domain configuration: [GitHub custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 Google Search Console ownership is verified, and `https://isabellamaassen.com/sitemap.xml` was successfully submitted and read on November 9, 2026. See `LAUNCH-CHECKLIST.md` for remaining profile links and indexing follow-up.
+
+## Website icon
+
+The favicon is a pale blue circle (`#dfeaf1`) with navy uppercase IM (`#254d67`). Matching versions are provided as SVG, a 96px PNG for Google and other consumers, a root `favicon.ico` with 16/32/48px sizes, and a 180px Apple touch icon. The generated homepage declares each version. Keep these URLs stable; Google refreshes its cached search icon after recrawling and processing the homepage and icon.

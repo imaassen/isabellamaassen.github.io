@@ -93,7 +93,10 @@ def main():
   <meta property="og:title" content="{e(data['name'])} | Economics">
   <meta property="og:description" content="{e(data['description'])}">
   <meta property="og:url" content="{page_url}">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
+  <link rel="icon" href="assets/favicon.png" type="image/png" sizes="96x96">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
   <link rel="stylesheet" href="assets/site.css?v={style_version}">
   <script type="application/ld+json">{json.dumps(person, ensure_ascii=False).replace('<', chr(92) + 'u003c')}</script>
 </head>
