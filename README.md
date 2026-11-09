@@ -1,8 +1,8 @@
 # Isabella Maassen — research website
 
-A single-page website prepared for **isabellamaassen.com**, using the GitHub account **imaassen**.
+A single-page academic website at **https://isabellamaassen.com/**, using the GitHub account **imaassen**.
 
-The approved website is prepared for GitHub Pages publication at **https://isabellamaassen.com/**. The CV and portrait are linked from the homepage at `assets/cv.pdf` and `assets/portrait.jpg`. The launch build enables search indexing and generates a sitemap.
+The approved website was published with GitHub Pages on November 9, 2026. The custom domain is verified and HTTPS is enforced. The CV and portrait are linked from the homepage at `assets/cv.pdf` and `assets/portrait.jpg`. The launch build enables search indexing and generates a sitemap.
 
 ## Preview
 
@@ -31,13 +31,13 @@ The main monopsony download is the supplied January 2026 PDF. A separate link le
 
 ## Make an update
 
-Edit `content.json`, then regenerate the local draft:
+Edit `content.json`, then regenerate the version intended for the live website:
 
 ```sh
-python3 tools/build.py
+python3 tools/build.py --publish
 ```
 
-Use JSON syntax: double-quoted keys and strings, and commas between entries. Keep PDF filenames and links consistent. Update the `updated` date when making substantive changes.
+Use JSON syntax: double-quoted keys and strings, and commas between entries. Keep PDF filenames and links consistent. Update the `updated` date when making substantive changes. Preview the result, then commit and push to `main` to deploy it. To make a private local draft with indexing disabled, run the build without `--publish` and do not push that draft.
 
 ## Update the CV
 
@@ -51,7 +51,7 @@ Both original photos are preserved unchanged in `.private/portraits/`, excluded 
 
 For future updates, create a metadata-free copy at `assets/portrait.jpg` and regenerate the draft. The image is shown beside the introduction on desktop and smaller beside the name on phones. Its frame uses a 4:5 crop controlled by `object-position` in `assets/site.css`.
 
-## Launch later
+## Publication build
 
 Follow `LAUNCH-CHECKLIST.md`. Preparing launch files requires the revised CV and portrait:
 
@@ -67,6 +67,8 @@ For future updates after launch, use `--publish` so the live version remains ind
 
 The working repository is `imaassen/isabellamaassen.github.io`, cloned locally. Make website changes in this repository going forward. The generated site can be served directly from its main branch and root folder, with no framework, build service, or paid hosting. GitHub's free Pages plan uses a public repository, so upload only when the site and paper versions are ready to be public.
 
-Custom domain: `isabellamaassen.com` (already recorded in the local `CNAME` file). The `www` address can redirect to this domain after its DNS record is configured.
+Custom domain: `isabellamaassen.com` (already recorded in the local `CNAME` file). Porkbun routes the root domain using an `ALIAS` to `imaassen.github.io` and `www` using a `CNAME` to the same target. Keep the GitHub and Google verification TXT records in place.
 
 Source for domain configuration: [GitHub custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+Google Search Console ownership is verified, and `https://isabellamaassen.com/sitemap.xml` was successfully submitted and read on November 9, 2026. See `LAUNCH-CHECKLIST.md` for remaining profile links and indexing follow-up.
