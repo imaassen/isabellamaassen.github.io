@@ -1,0 +1,61 @@
+{
+  "name": "Isabella Maassen",
+  "role": "PhD student in Economics",
+  "affiliation": "IIES, Stockholm University",
+  "affiliation_url": "https://www.su.se/english/divisions/institute-for-international-economic-studies",
+  "email": "isabella.maassen@iies.su.se",
+  "domain": "isabellamaassen.com",
+  "github_username": "imaassen",
+  "bio": "I am a PhD student at IIES (Stockholm University) expecting to graduate in June 2027. My research spans macroeconomics and labor economics, with a particular interest in innovation, entrepreneurship, and firm decisions. I often work with Swedish admin data.",
+  "description": "Isabella Maassen is a PhD student at IIES, Stockholm University, expecting to complete her PhD in June 2027. Research in macroeconomics and labor economics, innovation, entrepreneurship, and firm decisions.",
+  "updated": "2026-11-09",
+  "cv": "assets/cv.pdf",
+  "papers": [
+    {
+      "id": "monopsony",
+      "title": "Monopsony Power and Creative Destruction",
+      "coauthors": [
+        "Filip Mellgren",
+        "Jonas Overhage"
+      ],
+      "status": "Revise and resubmit, American Economic Journal: Macroeconomics",
+      "cesifo_url": "https://www.ifo.de/en/cesifo/publications/2025/working-paper/monopsony-power-and-creative-destruction-static-loss-faster-growth",
+      "abstract": "This study examines the effects of monopsony on macroeconomic productivity and growth using an endogenous growth model with heterogeneous firms facing upward-sloping labor supply curves. We find that this framework can rationalize the prevalence of unproductive yet innovating firms that would otherwise be crowded out by more productive competitors. In addition, we show that monopsony is an important determinant of product market power. Calibration to U.S. data confirms previous findings that monopsony decreases static productivity. However, it also leads to higher growth. We estimate that a 1% narrowing of the markdown increases the present value of output by about 1.08%.",
+      "pdf": "papers/monopsony-creative-destruction.pdf"
+    },
+    {
+      "id": "automation",
+      "title": "What Is Automation? Evidence on the Role of Capital Heterogeneity from Swedish Data",
+      "coauthors": [
+        "Chek Yin Choi"
+      ],
+      "status": "Working paper",
+      "abstract": "Automation is often studied by relating investments in capital to labor market outcomes, yet production capital is highly heterogeneous, and different technologies need not interact with labor in the same way. This makes the empirical measurement of automation inherently sensitive to how automation capital is defined. Using matched Swedish administrative data linking firms, workers, and highly disaggregated imports of capital goods, we isolate the role of measurement by replicating the leading empirical approaches in the literature under a common institutional setting while systematically varying the definition of automation capital. We compare definitions ranging from industrial robots to broad automation measures and detailed capital classes. We find that capital heterogeneity matters in three ways. First, evidence based on industrial robots should be benchmarked against other capital goods before being interpreted as evidence on automation more generally, as many conventional technologies exhibit similar or stronger labor market effects while broader automation measures yield different conclusions. Second, aggregating heterogeneous technologies into broad automation measures masks economically meaningful variation. Third, under a common data environment, changing the definition of automation has a larger effect on empirical conclusions than changing the estimation strategy. Our results suggest that capital heterogeneity is a fundamental measurement issue and should be taken into account when drawing conclusions about the labor market effects of automation.",
+      "pdf": "papers/automation-capital-heterogeneity.pdf"
+    },
+    {
+      "id": "entrepreneurship",
+      "title": "The Wrong Entrepreneurs? Family Wealth, Talent, and Aggregate Outcomes",
+      "coauthors": [
+        "Sofia Giovannetti"
+      ],
+      "status": "Working paper",
+      "abstract": "We investigate how the joint distribution of skills and parental wealth affects the number and performance of firms founded, and the effect on aggregate outcomes. Using Swedish administrative data we find that higher parental wealth is associated with an increased rate of entry into entrepreneurship, but a weakened selection into entrepreneurship on both cognitive and non-cognitive skills. These abilities in turn matter for different firm outcomes. Cognitive ability is associated with higher probabilities of patenting, becoming a top 5% firm in terms of revenue, and surviving, while non-cognitive ability predicts all measures of firm size, by revenue and workers, but not patenting or firm exit. In our two-period model, we show that a liquidity channel of parental wealth cannot rationalize the observed weakening of skill-based selection along the parental wealth distribution, whereas an insurance channel can generate this pattern. To quantify the effect of the weakened selection on skill, we build a quantitative GE model featuring both a liquidity and an insurance channel of parental wealth, as well as a link between founder skills and firm outcomes. We conclude that our findings point to a potential misallocation introduced by parental wealth through its role in the entry decision.",
+      "pdf": "papers/entrepreneurship-family-wealth.pdf"
+    },
+    {
+      "id": "mobility",
+      "title": "Beyond Individual Returns to Geographic Mobility: A General Equilibrium Perspective",
+      "coauthors": [],
+      "status": "Working paper",
+      "abstract": null,
+      "pdf": null
+    }
+  ],
+  "portrait": "assets/portrait.jpg",
+  "coauthor_urls": {
+    "Chek Yin Choi": "https://hkchekc.github.io/",
+    "Filip Mellgren": "https://filipmellgren.com/",
+    "Jonas Overhage": "https://joverhage.github.io/"
+  }
+}
