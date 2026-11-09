@@ -33,9 +33,9 @@ def main():
     e = escape
     page_url = "https://" + data["domain"] + "/"
     style_version = hashlib.sha256((ROOT / "assets/site.css").read_bytes()).hexdigest()[:10]
-    cv_link = f'<a href="{e(cv)}">CV <span class="link-note">(PDF)</span></a>' if has_cv else ""
-    portrait_html = (f'<img class="portrait" src="{e(portrait)}" alt="Portrait of {e(data["name"])}" width="320" height="400" decoding="async">' if portrait else '<div class="portrait portrait-placeholder" role="img" aria-label="Portrait to be added"><span>Portrait</span></div>')
     pdf_icon = (ROOT / "assets/pdf-icon.svg").read_text().strip()
+    cv_link = f'<a class="download-link" href="{e(cv)}" aria-label="Download CV (PDF)">{pdf_icon}<span>CV</span></a>' if has_cv else ""
+    portrait_html = (f'<img class="portrait" src="{e(portrait)}" alt="Portrait of {e(data["name"])}" width="320" height="400" decoding="async">' if portrait else '<div class="portrait portrait-placeholder" role="img" aria-label="Portrait to be added"><span>Portrait</span></div>')
     papers = []
     for paper in data["papers"]:
         coauthors = ""

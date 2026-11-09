@@ -29,9 +29,8 @@ h1 { font-size: clamp(48px, 5.8vw, 78px); font-weight: 800; line-height: 1.02; l
 .portrait-placeholder { display: flex; align-items: center; justify-content: center; background: #f0f0eb; border: 1px solid var(--rule); color: #666860; font-size: 11px; letter-spacing: .04em; }
 .intro-copy { max-width: 720px; }
 .bio { margin: 0; font-size: 18px; line-height: 1.7; letter-spacing: -.012em; }
-.contact-links { display: flex; flex-wrap: wrap; gap: 20px 28px; margin-top: 25px; font-size: 14px; }
-.contact-links a { padding-block: 3px; }
-.link-note { font-size: .88em; }
+.contact-links { display: flex; align-items: center; flex-wrap: wrap; gap: 20px 28px; margin-top: 25px; font-size: 14px; }
+.contact-links a { display: inline-flex; align-items: center; gap: 6px; line-height: 18px; padding-block: 3px; }
 
 .research { display: grid; grid-template-columns: 190px minmax(0, 1fr); border-top: 1px solid var(--ink); }
 .section-label { padding-top: 29px; }
