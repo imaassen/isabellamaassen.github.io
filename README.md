@@ -53,7 +53,7 @@ For future updates, create a metadata-free copy at `assets/portrait.jpg` and reg
 
 ## Publication build
 
-Follow `LAUNCH-CHECKLIST.md`. Preparing launch files requires the revised CV and portrait:
+Preparing publication files requires the CV and portrait:
 
 ```sh
 python3 tools/build.py --publish
@@ -71,7 +71,7 @@ Custom domain: `isabellamaassen.com` (already recorded in the local `CNAME` file
 
 Source for domain configuration: [GitHub custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
-Google Search Console ownership is verified, and `https://isabellamaassen.com/sitemap.xml` was successfully submitted and read on November 9, 2026. See `LAUNCH-CHECKLIST.md` for remaining profile links and indexing follow-up.
+Google Search Console ownership is verified, and `https://isabellamaassen.com/sitemap.xml` was successfully submitted and read on November 9, 2026.
 
 ## Website icon
 
